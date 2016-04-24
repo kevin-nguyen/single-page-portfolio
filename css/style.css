@@ -1,0 +1,104 @@
+html, body, header {
+    position: relative;
+}
+
+.hero {
+    background-size: cover; 
+    background-image: url(../resource/header2.jpg);
+    background-position: right center;
+    width: 100%;
+    height: 100vh;
+}
+
+.lightgrey-bg {
+    background-color: lightgrey;
+}
+
+.black-bg {
+    background-color: #232E21; 
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#about {
+    margin-top: 0;
+}
+
+.filter {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.header-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.header-content h2 {
+    color: #EAEAEA;
+}
+
+.header-content hr {
+    border: none;
+    width: 85px;
+    height: 3px;
+    background-color: #FFF;
+}
+
+.header-content .subheading {
+    font-size: 1.5em;
+}
+
+hr {
+    border: none;
+    width: 20%;
+    height: 3px;
+    margin: 0 0 0 10px auto;
+}
+
+#about hr {
+    background-color: #958FBF;
+}
+
+#portfolio hr {
+    background-color: #2D93AD;
+}
+
+.remove-gutter {
+    padding: 0;
+}
+
+#contact-me {
+    padding-bottom: 20px;
+}
+
+#contact-me hr {
+    background-color: #FF964C;
+}
+
+label {
+    display: none;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.glyph-size-md {
+    font-size: 3em;
+}
+
+.glyph-size-md hr {
+    display: inline-block;
+}
