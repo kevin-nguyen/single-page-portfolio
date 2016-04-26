@@ -78,7 +78,7 @@ hr {
     padding: 0;
 }
 
-#contact-me {
+#contact-me, #about {
     padding-bottom: 20px;
 }
 
@@ -102,3 +102,4 @@ label {
 .glyph-size-md hr {
     display: inline-block;
 }
+
