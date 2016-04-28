@@ -123,5 +123,10 @@ nav {
     #portfolio img {
         margin: 0 auto;
     }
+
+    .affix-top {
+        background-color: white;
+    }
+
 }
 
