@@ -103,3 +103,19 @@ label {
     display: inline-block;
 }
 
+.form-group {
+    padding-top: 20px;
+}
+
+.affix {
+    background-color: white;
+}
+
+.affix-top {
+    background-color: transparent;
+}
+
+nav {
+    border-bottom-color: rgba(255, 255, 255, .5) !important;
+}
+
