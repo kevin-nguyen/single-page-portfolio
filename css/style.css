@@ -78,6 +78,40 @@ hr {
     padding: 0;
 }
 
+#portfolio a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    color: transparent;
+}
+
+.portfolio-overlay:hover {
+    background-color: rgba(192, 185, 221, .9);
+    color: white;
+}
+
+.overlay-content-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.center-text-vertical {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
 #contact-me, #about {
     padding-bottom: 20px;
 }
