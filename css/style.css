@@ -120,8 +120,29 @@ hr {
     background-color: #FF964C;
 }
 
-label {
-    display: none;
+.form-group label {
+    position: relative;
+    display: block;
+    opacity: 0;
+    top: 2.5em;
+    -webkit-transition: top 1s ease, 
+                        opacity 1s linear;
+    -moz-transition: top 1s ease, 
+                     opacity 1s linear;
+    -o-transition: top 1s ease, 
+                   opacity 1s linear;
+    transition: top 1s ease, 
+                opacity 1s linear;
+}
+
+.form-group-content label {
+    top: 0;
+    opacity: 1;
+    color: grey;
+}
+
+.form-group-focused label {
+    color: white;
 }
 
 .center-image {
@@ -137,12 +158,12 @@ label {
     display: inline-block;
 }
 
-.form-group {
-    padding-top: 20px;
-}
-
 .affix {
     background-color: white;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    transition: background-color 1s ease;
 }
 
 .affix-top {
@@ -163,4 +184,6 @@ nav {
     }
 
 }
+
+
 
